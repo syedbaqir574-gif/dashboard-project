@@ -139,7 +139,9 @@ st.markdown("""
 # ── Data Load ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def get_data():
-    return load_data("data/constituents.txt")
+   base = os.path.dirname(os.path.abspath(__file__))
+path = os.path.join(base, "data", "constituents.txt")
+return load_data(path)
 
 df_raw = get_data()
 
