@@ -116,4 +116,4 @@ display_cols = ["Symbol", "Security", "GICS Sector", "GICS Sub-Industry", "Headq
 st.dataframe(df[display_cols].rename(columns={"Founded_Year": "Founded", "Company_Age": "Age (Yrs)", "Years_in_SP500": "In S&P (Yrs)"}), use_container_width=True, height=380)
 
 st.markdown("---")
-st.markdown("Syed Baqir Hussain Shah | SAP: 70177654 | EDA | Ali Hassan Sherazi")
+st.markdown("Syed Baqir Hussain Shah | SAP: 70143947 | EDA |")
